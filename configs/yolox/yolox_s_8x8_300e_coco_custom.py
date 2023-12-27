@@ -22,7 +22,7 @@ model = dict(
     test_cfg=dict(score_thr=0.01, nms=dict(type='nms', iou_threshold=0.65)))
 
 # dataset settings
-data_root = '/kaggle/working/mmdetection_yolox_coco/configs/yolox'
+data_root = '/kaggle/input/coco-2017-dataset/coco2017'
 dataset_type = 'CocoDataset'
 
 train_pipeline = [
